@@ -14,8 +14,8 @@ class Live:
         self.symbols = symbols
         self.exchange = exchange
         #self.app.get("/orderBooks")(self.get_order_books_by)
-        self.app.get("/price")(self.get_order_books_by)
-        #self.app.get("/")(self.get_order_books_by)
+        #self.app.get("/price")(self.get_order_books_by)
+        self.app.get("/")(self.get_order_books_by)
         # fixme: shutdown event not called when running in container.
         self.app.on_event("shutdown")(self.close)
 

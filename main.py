@@ -19,5 +19,5 @@ binance_instance = Binance(
 
 live_server = Live(exchange={"binance": binance_instance}, symbols=[])
 app = live_server.app
-# if __name__ == "__main__":
-#     uvicorn.run(live_server.app, host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    uvicorn.run(live_server.app, host="0.0.0.0", port=8000)

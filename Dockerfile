@@ -15,3 +15,7 @@ WORKDIR app
 #RUN poetry install --no-root --no-dev
 
 COPY ./ /app
+EXPOSE 8000
+USER root
+
+CMD ["python3","/app/main.py"]

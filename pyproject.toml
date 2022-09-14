@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "live-data"
+version = "0.1.0"
+description = "Provides live data from many brokers and markets."
+authors = ["Siyavash Najafzade <s.najafzade@phinix.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+fastapi = "^0.81.0"
+websocket-client = "^1.4.0"
+uvicorn = "^0.18.3"
+dynaconf = "^3.1.9"
+loguru = "^0.6.0"
+six = "^1.16.0"
+python-socks = "^2.0.3"
+deta = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+pylint = "^2.15.0"
+nox = "^2022.8.7"
+pytest = "^7.1.2"
+coverage = "^6.4.4"
+requests = "^2.28.1"
+pytype = "^2022.8.30"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

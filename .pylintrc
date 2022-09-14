@@ -1,0 +1,4 @@
+[pylint]
+disable=too-few-public-methods,bad-continuation,subprocess-run-check,duplicate-code,missing-module-docstring,too-many-arguments,too-many-instance-attributes,missing-class-docstring,invalid-name,missing-function-docstring,consider-using-enumerate,fixme
+[FORMAT]
+max-line-length=88

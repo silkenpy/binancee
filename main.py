@@ -7,12 +7,12 @@ from live_data.exchange.binance import Binance
 binance_instance = Binance(
     [
         # "!bookTicker"
-        # "!ticker"
-        "btcusdt@ticker", "ethusdt@ticker", "trxusdt@ticker", "shibusdt@ticker", "dogeusdt@ticker",
-        "celrusdt@ticker", "oneusdt@ticker", "etcusdt@ticker", "compusdt@ticker", "xrpusdt@ticker",
-        "bnbusdt@ticker", "maticusdt@ticker", "solusdt@ticker", "ltcusdt@ticker", "icpusdt@ticker",
-        "linkusdt@ticker", "sandusdt@ticker", "manausdt@ticker", "cakeusdt@ticker", "dotusdt@ticker",
-        "adausdt@ticker", "atomusdt@ticker", "ftmusdt@ticker", "cosusdt@ticker", "paxgusdt@ticker",
+        "!ticker"
+        # "btcusdt@ticker", "ethusdt@ticker", "trxusdt@ticker", "shibusdt@ticker", "dogeusdt@ticker",
+        # "celrusdt@ticker", "oneusdt@ticker", "etcusdt@ticker", "compusdt@ticker", "xrpusdt@ticker",
+        # "bnbusdt@ticker", "maticusdt@ticker", "solusdt@ticker", "ltcusdt@ticker", "icpusdt@ticker",
+        # "linkusdt@ticker", "sandusdt@ticker", "manausdt@ticker", "cakeusdt@ticker", "dotusdt@ticker",
+        # "adausdt@ticker", "atomusdt@ticker", "ftmusdt@ticker", "cosusdt@ticker", "paxgusdt@ticker",
 
     ]
 )
